@@ -43,7 +43,7 @@ class Worker(QObject):
         
         options = EdgeOptions()
         options.use_chromium = True
-        #options.add_argument('--headless')
+        options.add_argument('--headless')
         options.add_argument("--mute-audio")
         self.driver = Edge("msedgedriver.exe",options=options)
         self.driver.set_window_size(1920, 1080)
@@ -198,7 +198,6 @@ class Worker(QObject):
         self.next_customer = customer
 
 class Ui_MainWindow(QtWidgets.QWidget):
-    stop_signal = pyqtSignal()
     
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
