@@ -6,6 +6,7 @@ This app checks new messages and gives notifications.
 * PyQt5
 * beatifulsoup4
 * msedge.selenium_tools
+* You need edgedriver, can be found here : https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/  and keep the msedgedriver.exe in the same directory as the script file.
 
 # Usage
 
