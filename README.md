@@ -1,6 +1,12 @@
 # Rocket League Garage Chatter
 This app checks new messages and gives notifications.
 
+# Requirements
+
+* beautifulsoup4
+* msedge.selenium_tools
+* You need edgedriver, can be found here : https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/  and keep the msedgedriver.exe in the same directory as the script file.
+
 # Usage
 
 You need to give account email and password in account.txt
